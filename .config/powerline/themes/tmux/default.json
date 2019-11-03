@@ -1,29 +1,6 @@
 {
   "segments": {
     "right": [
-      {
-        "priority": 1000,
-        "function": "powerline.segments.common.players.spotify_dbus",
-        "name": "player",
-        "args": {
-          "state_symbols": {
-            "play": "▶",
-            "pause": "⏸",
-            "stop": "⏹",
-            "fallback": "?"
-          },
-          "format": "{state_symbol} {artist} - {title}"
-        }
-      },
-      {
-        "display": false,
-        "priority": 2000,
-        "function": "powerline.segments.common.wthr.weather",
-        "args": {
-          "unit": "C",
-          "location_query": "Palo Alto, CA, United States"
-        }
-      }
     ]
   }
 }
